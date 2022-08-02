@@ -1,10 +1,11 @@
 import React from "react";
 import Typed from "react-typed";
+import GetStartBtn from "./GetStartBtn";
 
 const Hero = () => {
   return (
     <section className="text-white">
-      <section className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <section className="max-w-[800px] md:mt-[-4rem] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00df9a]  font-bold p-2">
           GROWING WITH DATA ANALYTICS
         </p>
@@ -27,9 +28,7 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
           platforms.
         </p>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#292929]">
-          Get Started
-        </button>
+        <GetStartBtn />
       </section>
     </section>
   );
